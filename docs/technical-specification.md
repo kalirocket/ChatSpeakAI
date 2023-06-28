@@ -2,6 +2,7 @@
 **Table of Contents**
 1. [Introduction](#introduction)
    * [Overview](#overview)
+	   * [License](#license)
 		* [Definitions, Acronyms and Abbreviations](#definitions)
 	* [Scope](#scope)
 	* [Objectives](#objectives)
@@ -52,6 +53,9 @@ The ChatSpeakAI project is an open source voice application designed to enable n
 With ChatSpeakAI, users can communicate with the voice assistant by speaking commands and questions and receive responses in a conversational manner. The application is powered by the ChatGPT model, which allows it to generate relevant and accurate context responses based on user inputs.
 
 In this document specification, details of the application architecture, data models, API integrations, user interface components, dependencies, development guides, testing strategy, deployment process, and future considerations will be detailed. This document serves as a guide for developers and contributors involved in the ChatSpeakAI project.
+
+### License
+The ChatSpeakAI application is released under the [MIT License](https://opensource.org/licenses/MIT). This license grants users the permission to use, modify, and distribute the application under certain conditions. It also disclaims any warranties or liabilities associated with the use of the application.
 
 ### <a id="definitions"></a>Definitions, Acronyms and Abbreviations
 Below is a table that lists the definitions, acronyms, and abbreviations used throughout this document. It provides reference for key terms and their meanings.
