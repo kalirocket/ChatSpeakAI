@@ -3,7 +3,8 @@
 1. [Introduction](#introduction)
    * [Overview](#overview)
 		* [Definitions, Acronyms and Abbreviations](#definitions)
-	* Scope
+	* [Scope](#scope)
+	* [Objectives](#objectives)
 	* Audience
 2.  Application architecture 
 	* Overview
@@ -60,3 +61,50 @@ Below is a table that lists the definitions, acronyms, and abbreviations used th
 | Natural Language| Native speech of user |
 | Speech Recognition| Automatic speech recognition (ASR), computer speech recognition, or speech-to-text.
 | Speech Synthesis | Generating spoken language by machine on the basis of written input, or text to speech.
+
+### Scope
+**Components**
+1. **Voice-Based Conversations**
+	-  Users can interact with the application through voice commands and questions.
+	-  The application utilizes speech recognition tools to convert user speech into text.
+	-  The application utilizes speech syntheses tools to convert ChatGPT text responses to speech.
+	-  Natural language processing techniques are used to understand and interpret user inputs.
+
+2. **Conversational Responses**
+	-   The application generates accurate context and relevant responses based on user inputs.
+	-   Responses are generated using the ChatGPT.
+	-   The application aims to provide accurate and informative responses to user inputs.
+
+3. **User Friendly Voice Assistant Experience**
+
+	-   The application aims to deliver an interactive voice assistant experience.
+	-   Users can engage in natural language conversations with the application.
+
+4. **Application Architecture**
+	-   The application follows a client-server architecture.
+	-   Client-side components handle user interactions and interface rendering.
+	-   Server-side components handle the processing and generation of responses.
+
+**Boundaries**
+* The application is intended for use by only individual users and does not include multi-user features.
+* The application focuses on providing only voice-based conversations and does not include other modes of interaction.
+
+### Objectives
+1. **Enable Voice-Based Conversations**
+	-  Allow users to interact with the application using voice commands and questions.
+	-  Utilize speech recognition tools to convert user speech into text.
+	-  Utilize speech synthesis tools to convert ChatGPT responses to speech.
+	-  Apply natural language processing techniques to understand and interpret user inputs.
+
+2. **Provide Conversational Responses**
+	-   Generate accurate context and relevant responses based on user inputs.
+	-   Utilize the ChatGPT language model developed by OpenAI to generate responses.
+	-   Strive to provide accurate and informative responses to user inputs.
+
+3. **Deliver a User-Friendly Voice Assistant Experience**
+	-   Create an interactive voice assistant experience for users.
+	-   Enable natural language conversations between users and the application.
+
+4. **Establish an Effective Application Architecture**
+	-   Follow a client-server architecture to handle user interactions and response generation.
+	-   Utilize technologies and frameworks for the client-side and server-side components.
